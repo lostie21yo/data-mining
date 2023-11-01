@@ -36,10 +36,6 @@ class VideoThread(QThread):
         self.is_run = False
         self.wait()
 
-    # def pause(self):
-    #     with QMutexLocker(self.mutex):
-    #         self.is_paused = True
-
     def resume(self):
         if not self.is_paused:
             return
