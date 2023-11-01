@@ -34,8 +34,9 @@ class VideoThread(QThread):
 
     def close(self):
         self.is_run = False
-        self.wait()
-
+        self.wait() # oh shit
+    def pussy():
+        pass
     # def pause(self):
     #     with QMutexLocker(self.mutex):
     #         self.is_paused = True
